@@ -322,7 +322,6 @@ h6 {
         font-size: 20px;
         line-height: 24px;
     }
-   
 }
 
 /*--------------------------------------------------------------
@@ -398,6 +397,17 @@ section {
 }
 .about .content p:last-child {
     margin-bottom: 0;
+}
+.about button[type="download"] {
+    background: #0563bb;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.about button[type="download"]:hover {
+    background: #0678e3;
 }
 
 /*--------------------------------------------------------------
